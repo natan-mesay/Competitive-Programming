@@ -1,3 +1,5 @@
+package Week1;
+class SorttheSentence{
 public String sortSentence(String s) {
         String []ans = new String[s.split(" ").length];
         for(String st: s.split(" ")){
@@ -5,3 +7,4 @@ public String sortSentence(String s) {
         }
         return String.join(" ", ans);
     }
+}

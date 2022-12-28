@@ -1,4 +1,7 @@
-class Solution {
+package Week1;
+
+import java.util.*;
+class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
         HashSet <Integer> uset = new HashSet<>();
 

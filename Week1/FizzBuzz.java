@@ -1,4 +1,8 @@
-class Solution {
+package Week1;
+
+import java.util.*;
+
+class FizzBuzz {
     public List<String> fizzBuzz(int n) {
         List<String> match = new LinkedList<String>();
         for (int i = 1; i <= n; i++) {
@@ -17,5 +21,9 @@ class Solution {
             }
 }
         return match;
+    }
+
+    public static void main(String[] args) {
+        
     }
 }

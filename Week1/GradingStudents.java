@@ -1,3 +1,7 @@
+package Week1;
+import java.util.*;
+
+public class GradingStudents{
 public static List<Integer> gradingStudents(List<Integer> grades) {
     // Write your code here
     List<Integer> answer = new ArrayList<>();
@@ -19,3 +23,4 @@ public static List<Integer> gradingStudents(List<Integer> grades) {
     return answer;
         
     }
+}
